@@ -7,16 +7,29 @@ font-family: 'Roboto', sans-serif;
 
 */
 
+html{
+
+    background: url(../img/ilustracion1.png) ;
+    background-position: top right;
+    background-size: 54.5%;
+    background-repeat: no-repeat;
+}
+
 *{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 body{
-
-    background: url(../img/ilustracion_people.png), url(../img/ilustracion1.png) ;
-    background-position: right top;
-    background-size: 54.5%;
+    background: url(../img/ilustracion_people.png); 
     background-repeat: no-repeat;
+    background-size: 54.5%;
+    animation: animatedBackground 10s linear infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animatedBackground {
+    0% {background-position: 100% 0%;}
+   50% {background-position: 100% 3vh;}
+  100% {background-position: 100% 0%;}
 }
 section h1{
     font-size: 4.8rem;
@@ -48,6 +61,7 @@ header{
 
 /* How-To */
 #how-to{
+    min-height: 31vh;
     padding: 31vh 9% 18vh;
 }
 #how-to h1{
@@ -234,7 +248,6 @@ header{
     text-decoration: none;
     font-size: 1.7rem;
     color: #ffffff;
-
 }
 .subscribe:hover{
     background-image: linear-gradient(to right, #ff3571, #3C30FF);
