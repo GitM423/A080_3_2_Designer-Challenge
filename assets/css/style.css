@@ -8,13 +8,11 @@ font-family: 'Roboto', sans-serif;
 */
 
 html{
-
     background: url(../img/ilustracion1.png) ;
     background-position: top right;
     background-size: 54.5%;
     background-repeat: no-repeat;
 }
-
 *{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -62,7 +60,7 @@ header{
 /* How-To */
 #how-to{
     min-height: 31vh;
-    padding: 31vh 9% 18vh;
+    padding: 29vh 9% 18vh;
 }
 #how-to h1{
     width: 60%;
@@ -78,7 +76,7 @@ header{
     height: 2.3rem;
 }
 #how-to h3{
-    padding-top: 162px;
+    padding-top: 17vh;
     color: #ff3571;
 }
 .images{
