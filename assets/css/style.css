@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/*
+font-family: 'Roboto', sans-serif;
+ 
+#0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
+
+*/
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+
+    background: url(../img/ilustracion_people.png), url(../img/ilustracion1.png) ;
+    background-position: right top;
+    background-size: 54.5%;
+    background-repeat: no-repeat;
+}
+section h1{
+    font-size: 4.8rem;
+    line-height: 5.7rem;
+    font-weight: 900;
+}
+
+/* Logo */
+header{
+    padding: 3vh 4%;
+}
+#logo img{
+    height: 48px;
+    padding-right: 2%;
+    position: fixed;
+    top: 5.5vh;
+    left: 2.6%;
+}    
+#logo h1, #logo h3{
+    margin-left: 40px;
+}
+#logo h1{
+    margin-top: 2.1vh;
+    font-weight: 900;
+}
+#logo h3{
+    font-size: 1rem;
+}
+
+/* How-To */
+#how-to{
+    padding: 31vh 9% 18vh;
+}
+#how-to h1{
+    width: 60%;
+    font-size: 6.1rem;
+    line-height: initial;
+}
+#how-to p{
+    width: 55%;
+    padding-top: 2vh;
+    font-size: 2rem;
+}
+#how-to img{
+    height: 2.3rem;
+}
+#how-to h3{
+    padding-top: 162px;
+    color: #ff3571;
+}
+.images{
+    width: 100%;
+}
+
+/* Idea */
+#idea{
+    padding-top: 43vh;
+    display: flex;
+    justify-content: space-between;
+}
+#idea h1{
+    width: 23%;
+    padding-left: 12%;
+}
+#idea h1 img{
+    height: 5rem;
+}
+#idea p{
+    width:43%;
+    padding-top: 3vh;
+    padding-right: 13%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+/* Learned */
+#learned{
+    padding-top: 22vh;
+}
+#learned h1{
+    width: 50%;
+    padding-left: 11.5%;
+}
+#learned>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:  23vh 4% 0 8%;
+}
+.titles{
+    width: 32%;
+    margin: 5vh 4% 6vh;
+    padding: 0 75px;
+}
+.titles h2{
+    line-height: 3.5rem;
+    font-weight: 900;
+}
+.titles p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.title-1{
+    background: url(../img/title02.svg) ;
+    background-position: left top;
+    background-size: 42px;
+    background-repeat: no-repeat;
+}
+.title-2{
+    background: url(../img/title04.svg) ;
+    background-position: left top;
+    background-size: 42px;
+    background-repeat: no-repeat;
+}
+.title-3{
+    background: url(../img/title01.svg) ;
+    background-position: left top;
+    background-size: 42px;
+    background-repeat: no-repeat;
+}
+.title-4{
+    background: url(../img/title03.svg) ;
+    background-position: left top;
+    background-size: 42px;
+    background-repeat: no-repeat;
+}
+
+/* Ready */
+#ready{
+    padding-top: 23vh;
+}
+#ready>h1, #ready>p{
+    text-align: center;
+}
+#ready>p{
+    width: 60%;
+    margin: 7vh auto;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+#ready>div {
+    margin-top: 20vh;
+}
+.steps{
+    margin: 21vh 9% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.step-1, .step-3{
+    margin-right: 4%;
+}
+.steps-info{
+    width: 48%;
+}
+.step-2 .steps-info, .step-4 .steps-info{
+    width: 52%;
+}
+.steps-info h1{
+    margin-top: 7px;
+    font-size: 6rem;
+    color: #dddddd;
+}
+.steps-info img{
+    margin-top: 90px;
+    height: 50px;
+}
+.steps-info h2{
+    margin-top: 35px;
+    font-weight: 900;
+}
+.steps-info p{
+    margin-top: 25px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.steps-img img{
+    height: 630px;
+}
+
+/* Challenge */
+#challenge{
+    padding-top: 21vh;
+    text-align: center;
+}
+#challenge p{
+    margin-top: 7vh;
+    font-size: 2rem;
+}
+#challenge input{
+    width: 45%;
+    min-width: 350px;
+    margin-top: 8vh;
+    padding: 4vh 0;
+    font-size: 1.9rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px  #dddddd;
+}
+.subscribe{
+    display: block;
+    width: 20%;
+    min-width: 150px;
+    margin: 4vh auto;
+    padding: 2.5vh 0;
+    background: #ff3571;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+.subscribe:hover{
+    background-image: linear-gradient(to right, #ff3571, #3C30FF);
+}
+
+/* Footer */
+footer{
+    padding: 18vh 9% 2vh;
+    font-size: 1.5rem;
+}
+footer img{
+    height: 2rem;
+    padding-left: 15px;
+}
