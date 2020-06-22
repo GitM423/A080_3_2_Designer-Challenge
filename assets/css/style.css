@@ -21,7 +21,7 @@ body{
     background: url(../img/ilustracion_people.png); 
     background-repeat: no-repeat;
     background-size: 54.5%;
-    animation: animatedBackground 10s linear infinite;
+    animation: animatedBackground 3s linear infinite;
     animation-timing-function: ease-in-out;
 }
 @keyframes animatedBackground {
@@ -180,7 +180,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 .step-1, .step-3{
     margin-right: 4%;
